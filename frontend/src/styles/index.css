@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-ink text-slate-100 font-sans;
+  background-image: radial-gradient(circle at 20% 10%, rgba(125, 211, 252, 0.08), transparent 35%),
+    radial-gradient(circle at 80% 20%, rgba(110, 231, 183, 0.08), transparent 30%);
+}
+
+.card {
+  @apply bg-mist border border-slate-700/60 rounded-2xl shadow-xl;
+}
+
+.input {
+  @apply w-full rounded-xl bg-slate-900 border border-slate-700 px-4 py-3 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-glow;
+}
+
+.btn-primary {
+  @apply rounded-xl bg-glow text-ink font-semibold px-4 py-2 hover:opacity-90 transition;
+}
+
+.btn-muted {
+  @apply rounded-xl bg-slate-800 border border-slate-600 px-4 py-2 hover:bg-slate-700 transition;
+}

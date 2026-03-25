@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brandWave" x1="20" y1="16" x2="108" y2="114" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7DD3FC"/>
+      <stop offset="0.55" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#6EE7B7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="128" height="128" rx="28" fill="#111826"/>
+  <rect x="1" y="1" width="126" height="126" rx="27" stroke="#334155"/>
+
+  <path d="M35 22C46 36 46 53 35 70C25 86 25 103 35 118" stroke="url(#brandWave)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M55 22C66 36 66 53 55 70C45 86 45 103 55 118" stroke="url(#brandWave)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M75 22C86 36 86 53 75 70C65 86 65 103 75 118" stroke="url(#brandWave)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M95 22C106 36 106 53 95 70C85 86 85 103 95 118" stroke="url(#brandWave)" stroke-width="8" stroke-linecap="round"/>
+</svg>
